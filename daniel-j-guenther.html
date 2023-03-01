@@ -1,0 +1,935 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Wed Mar 01 2023 15:51:06 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="62331891ffc8c5b5cd0fdab0" data-wf-site="5ced464d38505804340143d1" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dan Guenther // Founddesigns.de</title>
+  <meta content="Dan Guenther // Founddesigns.de" property="og:title">
+  <meta content="Dan Guenther // Founddesigns.de" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="FX86iwp3IQsYhB8GqDc4CV1Rmj3X40GQMftjxqjEd48" name="google-site-verification">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/founddesigns.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Varela Round:400","Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Oswald:200,300,400,500,600,700","Inconsolata:400,700","Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
+  <script src="https://use.typekit.net/qmj6qok.js" type="text/javascript"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NSD2XGD');</script>
+  <style>
+    ::selection {
+        color: white;
+        background: #ffd15c;
+    }
+</style><!--  Card Slider  -->
+  <style>
+.swiper-container {
+overflow: hidden;
+}
+.swiper-slide {
+width: 174px;
+}
+.swiper-container-coverflow .swiper-wrapper{
+    -ms-perspective:1200px
+}
+.swiper-container-3d{
+    -webkit-perspective:1200px;
+    perspective:1200px
+}
+.swiper-container-3d .swiper-cube-shadow,.swiper-container-3d .swiper-slide,.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top,.swiper-container-3d .swiper-wrapper{
+    -webkit-transform-style:preserve-3d;
+    transform-style:preserve-3d
+}
+.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    z-index:10
+}
+.swiper-container-3d .swiper-slide-shadow-left{
+    background-image:-webkit-gradient(linear,right top,left top,from(rgba(0,0,0,.25)),to(rgba(0,0,0,0)));
+    background-image:-webkit-linear-gradient(right,rgba(0,0,0,.25),rgba(0,0,0,0));
+    background-image:-o-linear-gradient(right,rgba(0,0,0,.25),rgba(0,0,0,0));
+    background-image:linear-gradient(to left,rgba(0,0,0,.25),rgba(0,0,0,0))
+}
+.swiper-container-3d .swiper-slide-shadow-right{
+    background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.25)),to(rgba(0,0,0,0)));
+    background-image:-webkit-linear-gradient(left,rgba(0,0,0,.25),rgba(0,0,0,0));
+    background-image:-o-linear-gradient(left,rgba(0,0,0,.25),rgba(0,0,0,0));
+    background-image:linear-gradient(to right,rgba(0,0,0,.25),rgba(0,0,0,0))
+}
+.swiper-container-3d .swiper-slide-shadow-top{
+    background-image:-webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,.25)),to(rgba(0,0,0,0)));
+    background-image:-webkit-linear-gradient(bottom,rgba(0,0,0,.25),rgba(0,0,0,0));
+    background-image:-o-linear-gradient(bottom,rgba(0,0,0,.25),rgba(0,0,0,0));
+    background-image:linear-gradient(to top,rgba(0,0,0,.25),rgba(0,0,0,0))
+}
+.swiper-container-3d .swiper-slide-shadow-bottom{
+    background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.25)),to(rgba(0,0,0,0)));
+    background-image:-webkit-linear-gradient(top,rgba(0,0,0,.25),rgba(0,0,0,0));
+    background-image:-o-linear-gradient(top,rgba(0,0,0,.25),rgba(0,0,0,0));
+    background-image:linear-gradient(to bottom,rgba(0,0,0,.25),rgba(0,0,0,0))
+}
+.swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction{
+    bottom:10px;
+    left:0;
+    width:100%
+}
+.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    white-space:nowrap
+}
+.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+    -webkit-transition:.2s left,.2s -webkit-transform;
+    transition:.2s left,.2s -webkit-transform;
+    -o-transition:.2s transform,.2s left;
+    transition:.2s transform,.2s left;
+    transition:.2s transform,.2s left,.2s -webkit-transform
+}
+.swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+    -webkit-transition:.2s right,.2s -webkit-transform;
+    transition:.2s right,.2s -webkit-transform;
+    -o-transition:.2s transform,.2s right;
+    transition:.2s transform,.2s right;
+    transition:.2s transform,.2s right,.2s -webkit-transform
+}
+</style>
+</head>
+<body>
+  <div class="page-container">
+    <div data-animation="default" class="navbar-resume w-nav" data-easing2="ease-out" data-easing="ease-out" data-collapse="medium" data-ix="fade-in-page-load" role="banner" data-no-scroll="1" data-duration="720" id="navigation-bar">
+      <div class="notice-banner">
+        <div class="resume-container notice w-container">
+          <address class="nav-popup address address-2 address-3">
+            <div class="top-notif-left">
+              <div class="notice-info"><strong class="bold-notif">Call 24/7</strong>
+                <a href="tel:+4915129410707" class="simple-link-white">(+49) 0151-2941-0707</a>
+              </div>
+              <div class="notice-info"><strong class="bold-notif">Email</strong>
+                <a href="mailto:support@Founddesigns.de?subject=New%20Inquiry%20%2F%2F%20RE" class="simple-link-white">support@Founddesigns.de</a>
+              </div>
+            </div>
+            <div class="top-notif-right">
+              <div class="notice-info"><strong class="bold-notif">Trading</strong> Mon to Friday 9h00 - 17h00</div>
+            </div>
+          </address>
+        </div>
+      </div>
+      <aside class="cloud-search">
+        <div class="container search w-container">
+          <form action="/search" class="ns-form w-form"><input type="search" class="ns-input w-input" maxlength="256" name="query" placeholder="Looking for something specific? Type it here" id="search-2" required="">
+            <div><input type="submit" value="" class="ns-button w-button"></div>
+          </form>
+        </div>
+      </aside>
+      <div class="resume-container resume-nav w-container">
+        <div class="nav-padding">
+          <a href="#" class="founddesigns w-nav-brand">
+            <h1 class="foundlogo orange">Dan Guenther <span class="mini-brand">UXUI Frontend Developer</span></h1>
+          </a>
+          <a href="#" class="web-logo hide w-nav-brand">
+            <div class="identity-round"><img src="images/Founddesigns.de-web-logo-colour.png" alt="" loading="eager" class="web-blue" data-ix="fade-in-page-load">
+              <h1 class="web-brand alt">Founddesigns.de</h1>
+            </div>
+            <div class="identity-square"><img src="images/founddesigns-Founddesigns.de-web-logo-colour.svg" alt="" loading="eager" class="web-main" data-ix="fade-in-page-load">
+              <h1 class="web-brand">Founddesigns.de</h1>
+            </div>
+          </a>
+          <nav role="navigation" class="nav-menu w-nav-menu" data-ix="fade-in-page-load">
+            <a href="portfolio.html" class="navlink hide w-nav-link">Work</a>
+            <a href="index.html" class="navlink w-nav-link">Home</a>
+            <a href="about.html" class="navlink grd-b w-nav-link">About</a>
+            <a href="portfolio.html" class="navlink grd-d w-nav-link">Portfolio</a>
+            <a href="services.html" class="navlink temp-down w-nav-link">Tools &amp; More</a>
+            <a href="https://www.founddesigns.de/services?category=uxui-design" class="navlink w-nav-link">Services</a>
+            <a href="daniel-j-guenther.html" aria-current="page" class="button-link w-nav-link w--current">My Resume</a>
+            <div class="resume-nav-social">
+              <a href="https://www.behance.net/daniel-j-guenther" target="_blank" class="nav-social hide w-inline-block">
+                <div></div>
+              </a>
+              <a href="https://github.com/daniel-j-guenther" target="_blank" class="nav-social w-inline-block">
+                <div></div>
+              </a>
+              <a href="https://www.linkedin.com/in/daniel-j-guenther/" target="_blank" class="nav-social w-inline-block">
+                <div></div>
+              </a>
+            </div>
+            <div data-hover="false" data-delay="240" class="ns-dropper w-dropdown">
+              <div class="navlink w-dropdown-toggle">
+                <div>What I Can</div>
+              </div>
+              <nav class="ns-drop-list w-dropdown-list">
+                <div class="ns-dropper-wrap">
+                  <div class="ns-wrapper w-dyn-list">
+                    <div role="list" class="container drop-down w-dyn-items">
+                      <div role="listitem" class="ns-item w-dyn-item">
+                        <a href="#" class="ns-link w-inline-block">
+                          <div class="ns-cap"></div>
+                          <div class="ns-sub"></div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="w-dyn-empty">
+                      <div>No items found.</div>
+                    </div>
+                  </div>
+                  <div class="ns-bottom">
+                    <a href="about.html" class="ns-about w-inline-block">
+                      <div class="ns-more">Learn more about the design &amp; build process.</div>
+                    </a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <a href="#" class="button-link hide w-nav-link"><span class="btn-ico-search"> </span><span class="btn-ico-close"> </span><span class="btn-txt-search">Search</span> <span class="btn-txt-close">Close</span></a>
+            <div class="mobile-shift">
+              <a href="index.html" class="nav-link mobile w-nav-link">Home</a>
+              <a href="about.html" class="nav-link mobile w-nav-link">About</a>
+              <a href="services.html" class="nav-link mobile w-nav-link">Services</a>
+              <a href="portfolio.html" class="nav-link mobile w-nav-link">Portfolio</a>
+              <a href="insights.html" class="nav-link mobile w-nav-link">Insights</a>
+              <a href="uxui-design/contact.html" class="nav-link mobile w-nav-link">Contact</a>
+            </div>
+          </nav>
+          <div class="nav-mobile w-hidden-main w-nav-button">
+            <div class="top-bar"></div>
+            <div class="mid-bar">
+              <div class="mid-bar-l"></div>
+              <div class="mid-bar-r"></div>
+            </div>
+            <div class="low-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-5 hero wf-section">
+      <div class="resume-container w-container">
+        <div class="hero-flex-2">
+          <div class="hero-sides">
+            <div class="resume-notes">
+              <h3 class="purple">Introduction</h3>
+              <p class="resume-body">I&#x27;m a frontend developer with a passion for writing code and building modern interfaces.<br></p>
+            </div>
+            <div class="resume-notes">
+              <h3 class="purple">Contacts</h3>
+              <p>(+49) 0151-2941-0707<br>Dan@Founddesigns.de<br>Den Haag, Netherlands</p>
+            </div>
+            <div class="resume-notes">
+              <h3 class="purple">Core Skills</h3>
+              <p>UXUI Design<br>Digital Marketing<br>Frontend Development<br></p>
+            </div>
+          </div>
+          <div class="hero-main"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="hero-visuals">
+            <h2 id="typed-strings" class="section-title hero">js-typed</h2>
+          </div>
+          <div class="hero-sides">
+            <div class="resume-notes righty">
+              <h3 class="purple">Years of Experience</h3>
+              <p class="resume-body large">6+</p>
+            </div>
+            <div class="resume-notes righty">
+              <h3 class="purple">Portfolio Work</h3>
+              <p class="resume-body large">144</p>
+            </div>
+            <div class="resume-notes righty">
+              <h3 class="purple">Number of Clients</h3>
+              <p class="resume-body large">28</p>
+            </div>
+            <div class="resume-notes righty">
+              <h3 class="purple">Completed Jobs</h3>
+              <p class="resume-body large">52</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-5 wf-section">
+      <div class="resume-container w-container">
+        <div class="section-intro centered">
+          <h3 class="purple">Key Advantages</h3>
+          <h2 class="section-title">Abilities &amp; Strengths</h2>
+        </div>
+        <div class="swiper-container w-dyn-list">
+          <div role="list" class="swiper-wrapper w-dyn-items">
+            <div role="listitem" class="swiper-slide resume w-dyn-item">
+              <div class="key-spacer">
+                <div href="#" class="key-strengths"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" alt="" class="key-emblem">
+                  <div class="key-title"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="under-construction w-dyn-empty">
+            <div>My skill sets are currently being modified for review.</div>
+          </div>
+        </div>
+        <div class="button-flex-2">
+          <a href="#" data-w-id="63169a37-e5d4-189b-6e0f-ff1ad6b474e9" class="button-18 large purple w-button">Explore More</a>
+        </div>
+        <div data-duration-in="200" data-duration-out="200" data-easing="ease-in-out" style="display:none" data-current="Web Development" class="design-skills w-tabs">
+          <div class="skills-menu w-tab-menu">
+            <a data-w-tab="Visual Communication" class="skill-tab w-inline-block w-tab-link">
+              <div>Branding &amp; Identity</div>
+            </a>
+            <a data-w-tab="UXUI Design" class="skill-tab w-inline-block w-tab-link">
+              <div>UXUI Design</div>
+            </a>
+            <a data-w-tab="Web Development" class="skill-tab w-inline-block w-tab-link w--current">
+              <div>Frontend Web Development</div>
+            </a>
+            <a data-w-tab="Web Integrations" class="skill-tab w-inline-block w-tab-link">
+              <div>Web Integrations</div>
+            </a>
+            <a data-w-tab="Digital Marketing" class="skill-tab w-inline-block w-tab-link">
+              <div>Digital Marketing</div>
+            </a>
+          </div>
+          <div class="skills-tabbed w-tab-content">
+            <div data-w-tab="Visual Communication" class="skills-tabs w-tab-pane">
+              <div class="featured-four-2 w-dyn-list">
+                <div role="list" class="skill-list w-dyn-items w-row">
+                  <div role="listitem" class="skill-item w-dyn-item w-col w-col-3">
+                    <div href="#" class="skill-entry">
+                      <div class="entry-details">
+                        <div class="entry-title"></div>
+                        <div class="entry-subtitle"></div>
+                        <div class="skill-description"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="under-construction w-dyn-empty">
+                  <p>My skill sets are currently being modified for review.</p>
+                </div>
+              </div>
+            </div>
+            <div data-w-tab="UXUI Design" class="skills-tabs w-tab-pane">
+              <div class="featured-four-2 w-dyn-list">
+                <div role="list" class="skill-list w-dyn-items w-row">
+                  <div role="listitem" class="skill-item w-dyn-item w-col w-col-3">
+                    <div href="#" class="skill-entry">
+                      <div class="entry-details">
+                        <div class="entry-title"></div>
+                        <div class="entry-subtitle"></div>
+                        <div class="skill-description"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="under-construction w-dyn-empty">
+                  <p>My skill sets are currently being modified for review.</p>
+                </div>
+              </div>
+            </div>
+            <div data-w-tab="Web Development" class="skills-tabs w-tab-pane w--tab-active">
+              <div class="featured-four-2 w-dyn-list">
+                <div role="list" class="skill-list w-dyn-items w-row">
+                  <div role="listitem" class="skill-item w-dyn-item w-col w-col-3">
+                    <div href="#" class="skill-entry">
+                      <div class="resume-tools"><img src="" loading="lazy" alt="" class="resuyme-tool-img"></div>
+                      <div class="entry-details">
+                        <div class="entry-title"></div>
+                        <div class="entry-subtitle"></div>
+                        <div class="skill-description"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="under-construction w-dyn-empty">
+                  <p>My skill sets are currently being modified for review.</p>
+                </div>
+              </div>
+            </div>
+            <div data-w-tab="Web Integrations" class="skills-tabs w-tab-pane">
+              <div class="featured-four-2 w-dyn-list">
+                <div role="list" class="skill-list w-dyn-items w-row">
+                  <div role="listitem" class="skill-item w-dyn-item w-col w-col-3">
+                    <div href="#" class="skill-entry">
+                      <div class="entry-details">
+                        <div class="entry-title"></div>
+                        <div class="entry-subtitle"></div>
+                        <div class="skill-description"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="under-construction w-dyn-empty">
+                  <p>My skill sets are currently being modified for review.</p>
+                </div>
+              </div>
+            </div>
+            <div data-w-tab="Digital Marketing" class="skills-tabs w-tab-pane">
+              <div class="featured-four-2 w-dyn-list">
+                <div role="list" class="skill-list w-dyn-items w-row">
+                  <div role="listitem" class="skill-item w-dyn-item w-col w-col-3">
+                    <div href="#" class="skill-entry">
+                      <div class="entry-details">
+                        <div class="entry-title"></div>
+                        <div class="entry-subtitle"></div>
+                        <div class="skill-description"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="under-construction w-dyn-empty">
+                  <p>My skill sets are currently being modified for review.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="design"></div>
+      </div>
+    </div>
+    <div id="1-profile" class="section-5 haze wf-section">
+      <div class="resume-container w-container">
+        <div class="section-intro centered">
+          <h3 class="purple">Experience</h3>
+          <h2 class="section-title">Work <strong>Experience</strong> &amp; <strong>Academic</strong> History</h2>
+        </div>
+        <div class="experience-columns w-row">
+          <div class="w-col w-col-4">
+            <h5 class="heading-7 heading-5 faint">Work Experience:</h5>
+            <div class="card ux-tips extra alternative">
+              <div class="feature-information">
+                <p class="paragraph-3">UXUI Frontend Developer</p>
+                <p class="timeline"><strong>Founddesigns.de</strong> [2019-2022]<br></p>
+                <p class="grey no-margin">B2B &amp; B2C IaaS, PaaS &amp; SaaS.<br><br>UXD (User Experience Design); Frontend Web Development; Digital Marketing - SEO, SEM, SEA, Social Platforms, Data/Analytics, GDPR Legal.<a href="#"></a>
+                </p>
+              </div>
+              <div class="best-ux">
+                <p class="grey caption">⭐️ Webflow + Zappier + Memberstack + {any}<br>⭐️ Google Analytics + Data Studio (SEA, SEO, SEM)<br></p>
+                <p class="grey caption">✅ Adobe Illustrator, Photoshop, Fonts, Color...<br>✅ HMTL; CSS; SASS; ES6; Node.js; Express; npm...<br>✅ RESTful API; Webpack 4/5; Google Workbox...<br>✅ GitHub; Visual Studio Code, GCP Console...<br>✅ Linux CentOS/Ubuntu; cPanel WHM; Plesk WHM...<br></p>
+                <p class="grey caption">❌ Angular / REACT / Vue.js<br>❌ Joomla / Moodle / Shopify / Wix<br></p>
+              </div>
+            </div>
+            <div class="card ux-tips extra alternative">
+              <div class="feature-information">
+                <p class="paragraph-3">UXUI Frontend Developer</p>
+                <p class="timeline"><strong>Ubiquity Developments PTY Ltd.</strong> [2015-2018]<br></p>
+                <p class="grey no-margin">B2B &amp; B2C IaaS, PaaS &amp; SaaS.<br></p>
+              </div>
+              <div class="best-ux">
+                <p class="grey caption">⭐️ Moodle Hosting; WordPress &amp; Webflow; GCP.<br></p>
+                <p class="grey caption">✅ Adobe Illustrator, Photoshop, Fonts, Color...<br>✅ HMTL; CSS; JavaScript; Stack Overflow.<br>✅ GitHub; Visual Studio Code, GCP Console...<br>✅ Linux CentOS/Ubuntu; cPanel WHM; Plesk WHM...<br></p>
+                <p class="grey caption">❌ API; npm<br></p>
+              </div>
+            </div>
+            <div class="card ux-tips extra alternative">
+              <div class="feature-information">
+                <p class="paragraph-3">Operations / Marketing</p>
+                <p class="timeline"><strong>Blue Palm Community NPC</strong> [2011-2012]<br></p>
+                <p class="grey no-margin">A secure, private code that allows access to their account<br></p>
+              </div>
+              <div class="best-ux">
+                <p class="grey caption">⭐️ Include a password strength indicator<br>⭐️ Include password requirements (length, .<br>⭐️ Create the ability to make the password visible<br></p>
+              </div>
+            </div>
+            <div class="card">
+              <p class="paragraph-3">Direct Sales Representative</p>
+              <p class="timeline"><strong>IP Solutions PTY Ltd.</strong> [2011-2012]<br></p>
+              <p class="grey">Thusano Group (PTY) Ltd.<br></p>
+            </div>
+          </div>
+          <div class="w-col w-col-5">
+            <h5 class="heading-7 heading-5 faint">Academic History:</h5>
+            <div class="card">
+              <div class="academic-flex"><img src="images/Asset-5.png" alt="" class="academic-emblem">
+                <h5 class="heading-5">Google Analytics Academy</h5>
+              </div>
+              <a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fanalytics%2Egoogle%2Ecom%2Fanalytics%2Facademy%2Fcertificate%2FumNagj0pTBW8poVMZji6nA&amp;urlhash=pGtp&amp;trk=public_profile_see-credential" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources examples">
+                  <p class="paragraph-3">Introduction to Data Studio</p>
+                  <h5 class="article-title drak examples _20">Data Visualization for marketers, business owners, agencies, and data analysts.<br></h5>
+                  <p class="grey no-margin"><br>Issued Mar 2021 · Expires Mar 2024<br>Credential ID umNagj0pTBW8poVMZji6nA</p>
+                </div>
+              </a>
+              <div class="striped"></div>
+              <a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fanalytics%2Egoogle%2Ecom%2Fanalytics%2Facademy%2Fcertificate%2FJz6mIjTFTEyZ1SGQdoy0_Q&amp;urlhash=LGl7&amp;trk=public_profile_see-credential" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources">
+                  <p class="paragraph-3">Google Analytics for Beginners</p>
+                  <h5 class="article-title drak examples _20">Script implementation, analyze reports, setting up goals and campaign tracking.</h5>
+                  <p class="grey no-margin"><br>Issued Feb 2021 · Expires Feb 2024<br>Credential ID Jz6mIjTFTEyZ1SGQdoy0_Q</p>
+                </div>
+              </a>
+              <div class="striped"></div>
+              <a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fanalytics%2Egoogle%2Ecom%2Fanalytics%2Facademy%2Fcertificate%2Fhvx0nTXtS52X5Od2vSLExA&amp;urlhash=7IIH&amp;trk=public_profile_see-credential" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources">
+                  <p class="paragraph-3">Google Tag Manager Fundamentals</p>
+                  <h5 class="article-title drak examples _20">Tag implementation and management processes for marketers, analysts, and developers.</h5>
+                  <p class="grey no-margin"><br>Issued Jul 2020 · Expires Jul 2023<br>Credential ID hvx0nTXtS52X5Od2vSLExA</p>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <div class="academic-flex"><img src="images/Asset-1.png" alt="" class="academic-emblem">
+                <h5 class="heading-5">Google Cloud Training</h5>
+              </div>
+              <a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Ecoursera%2Eorg%2Faccount%2Faccomplishments%2Fcertificate%2F6XXLVSAE9REX&amp;urlhash=YVTE&amp;trk=public_profile_see-credential" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources examples">
+                  <p class="paragraph-3">Developing Apps with Google Cloud Platform:</p>
+                  <h5 class="article-title drak examples _20">Google Cloud Fundamentals: Core Infrastructure.</h5>
+                  <p class="grey no-margin"><br>Issued Dec 2019 · No Expiration Date<br>Credential ID 6XXLVSAE9REX</p>
+                </div>
+              </a>
+              <div class="striped"></div>
+              <a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fcoursera%2Eorg%2Fshare%2F913108f7322e3b355fac2712ba4d9273&amp;urlhash=0QiG&amp;trk=public_profile_see-credential" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources examples">
+                  <p class="paragraph-3">Developing Apps with Google Cloud Platform:</p>
+                  <h5 class="article-title drak examples _20">Getting Started With Application Development.</h5>
+                  <p class="grey no-margin"><br>Issued Dec 2019 · No Expiration Date<br>Credential ID 6ATNV3PJP7B6</p>
+                </div>
+              </a>
+              <div class="striped"></div>
+              <a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fcoursera%2Eorg%2Fshare%2F41e0f9318385bab19d901ce5dde490e1&amp;urlhash=OPoX&amp;trk=public_profile_see-credential" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources examples">
+                  <p class="paragraph-3">Developing Apps with Google Cloud Platform:</p>
+                  <h5 class="article-title drak examples _20">Securing &amp; Integrating Components of your App.</h5>
+                  <p class="grey no-margin"><br>Issued Dec 2019 · No Expiration Date<br>Credential ID BZAKA3JXSU9U</p>
+                </div>
+              </a>
+              <div class="striped"></div>
+              <a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fcoursera%2Eorg%2Fshare%2Ff8adce89a510e51e0caa05906133ae03&amp;urlhash=4VVW&amp;trk=public_profile_see-credential" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources examples">
+                  <p class="paragraph-3">Developing Apps with Google Cloud Platform:</p>
+                  <h5 class="article-title drak examples _20">App Deployment, Debugging, and Performance.</h5>
+                  <p class="grey no-margin"><br>Issued Dec 2019 · No Expiration Date<br>Credential ID hvx0nTXtS52X5Od2vSLExA</p>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <div class="academic-flex"><img src="images/university-of-adelaide-emblem.png" alt="" class="academic-emblem">
+                <h5 class="heading-5">University of Adelaide - edX</h5>
+              </div>
+              <a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fcourses%2Eedx%2Eorg%2Fcertificates%2F6855cf34a7f149cd9f825f89c7277260&amp;urlhash=VNHC&amp;trk=public_profile_see-credential" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources examples">
+                  <p class="paragraph-3">Introduction to Project Management</p>
+                  <h5 class="article-title drak examples _20">Intercom</h5>
+                  <p class="grey no-margin"><br>Issued Apr 2016 · No Expiration Date<br>Credential ID 6855cf34a7f149cd9f825f89c7277260</p>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <div class="academic-flex"><img src="images/harvard-university-emblem.png" alt="" class="academic-emblem">
+                <h5 class="heading-5">Harvard University - edX</h5>
+              </div>
+              <a href="https://app.intercom.io/admins/sign_in?ref=checklist.design" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources examples">
+                  <p class="paragraph-3">Introduction to Computer Science (CS50)</p>
+                  <h5 class="article-title drak examples _20">C;ArraysAlgorithmsMemoryData Structures;Python;SQLHTML, CSS, JavaScript.</h5>
+                  <p class="grey no-margin"><br>No Credential Available</p>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" class="credential-btn w-inline-block">
+                <div data-w-id="e3099cee-958e-5333-15ed-a36f4c6a85fa" data-animation-type="lottie" data-src="documents/bubble-lottie.json" data-loop="0" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="3" data-duration="0"></div>
+              </a>
+              <div class="academic-flex"><img src="images/university-of-pretoria-emblem.png" alt="" class="academic-emblem">
+                <h5 class="heading-5">University of Pretoria</h5>
+              </div>
+              <a href="https://webflow.com/dashboard/login?ref=checklist.design" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources">
+                  <p class="paragraph-3">Bachelor of Applied Science [2013-2015]</p>
+                  <h5 class="article-title drak examples _20">Human Physiology, Genetics &amp; Psychology<br></h5>
+                  <p class="grey no-margin"><br>Discontinued program (No Credential Available)<br>Completed first year of study (Credential Available)<br></p>
+                </div>
+              </a>
+              <div class="striped"></div>
+              <a href="https://www.dropbox.com/login?ref=checklist.design" target="_blank" class="credential-link example w-inline-block">
+                <div class="resources">
+                  <p class="paragraph-3">Bachelor of Applied Science [2010]</p>
+                  <h5 class="article-title drak examples _20">Biological &amp; Agricultural Sciences.</h5>
+                  <p class="grey no-margin"><br>Discontinued program (No Credential Available)<br>Completed first year of study (Credential Available)</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="w-col w-col-3">
+            <h5 class="heading-7 heading-5 faint">Current Enrollments:</h5>
+            <div class="card less">
+              <p class="paragraph-3">Udacity: Frontend Nanodegree</p>
+              <p class="grey">The goal of the Front End Web Developer Nanodegree program is to equip learners with the unique skills they need to build and develop a variety of websites and applications. A graduate of this Nanodegree program will be able to:  Construct responsive websites using CSS, Flexbox and CSS     Grid Develop interactive     websites and UI (User Interface) applications using JavaScript and HTML Connect a web application     to backend server data using JavaScript Automate application build and deployment using Webpack Improve offline     performance of websites using Service Worker<br></p>
+            </div>
+            <div class="card less">
+              <p class="paragraph-3">Google: User Experience Design</p>
+              <p class="grey">Either your complete logo or a symbol mark<br></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="2-work" class="section-5 serviceheader wf-section">
+      <div class="container w-container">
+        <div class="section-intro centered">
+          <h3 class="purple">Recent Work</h3>
+          <h2 class="section-title">Top Featured <strong>Latest Project</strong></h2>
+        </div>
+        <div class="latest-project w-embed w-iframe"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQDkdD4FWVWoML-YCE0SOe4zjyZZlYqB_NQB-yv4VaOI34dEZoCyVyuCOs1PZVC1hg5sX-nOGciCZz8/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="577" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+      </div>
+    </div>
+    <div class="section-5 haze wf-section">
+      <div class="resume-container w-container">
+        <div class="section-intro centered">
+          <h3 class="purple">Portfolio </h3>
+          <h2 class="section-title">Top Featured <strong>UXUI</strong>, <strong>Web</strong> &amp; <strong>Branding</strong></h2>
+        </div>
+        <div class="resume-portoflio-collection w-dyn-list">
+          <div role="list" class="full-portfolio w-dyn-items w-row">
+            <div role="listitem" class="work-item w-dyn-item w-col w-col-6"><img src="" alt="" class="showcase-cover">
+              <a href="#" class="work-overlay w-inline-block"><img src="" alt="" class="work-logo-2">
+                <div class="work-caption-2"></div>
+                <div class="work-link">
+                  <div class="showcase-more">View Portfolio</div>
+                  <div class="showcase-icon"></div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="w-dyn-empty">
+            <div>No items found.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-5 haze wf-section">
+      <div class="resume-container w-container">
+        <div class="section-intro centered">
+          <h3 class="purple">Logofolio</h3>
+          <h2 class="section-title">Top Featured <strong>Corporate Identity</strong></h2>
+        </div>
+        <div class="w-dyn-list">
+          <div role="list" class="logo-folio w-dyn-items w-row">
+            <div role="listitem" class="log-folio-item w-dyn-item w-col w-col-3">
+              <a href="#" class="lf-box-2 w-inline-block w-lightbox"><img src="" alt="" class="lf-cover-2">
+                <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "Logo Folio"
+}</script>
+              </a>
+            </div>
+          </div>
+          <div class="w-dyn-empty">
+            <div>No items found.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-5 haze wf-section">
+      <div class="resume-container w-container">
+        <div class="section-intro centered">
+          <h3 class="purple">Testimonials</h3>
+          <h2 class="section-title">What My Customers Say</h2>
+        </div>
+        <div data-delay="4000" data-animation="slide" class="testimonials-2 w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="w-slider-mask">
+            <div class="testimonials-slide-2 w-slide">
+              <div data-w-id="ffcb1bfe-c0ac-15cf-c57b-d29c9121c0d8" style="opacity:0" class="review-3">
+                <div class="quote-mark"></div>
+                <div class="quote-mark top-right"></div>
+                <div class="review-rating">
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3 grey-star"></div>
+                </div>
+                <h4>MercDrive SA</h4>
+                <p class="trio">&quot;Dan has been extremely professional in his work and passionate about what he does. His Frontend Web Development, System Administration &amp; Digital Marketing services have helped transform our brand across several web and social media platforms. Great work Dan.&quot;<br></p>
+                <h5>CJ Roos</h5>
+                <div class="feature-body-2 text-grey">Executive Director // MercDrive SA</div>
+              </div>
+            </div>
+            <div class="testimonials-slide-2 w-slide">
+              <div class="review-3">
+                <div class="quote-mark"></div>
+                <div class="quote-mark top-right"></div>
+                <div class="review-rating">
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                </div>
+                <h4>African LM Lawn</h4>
+                <p class="trio">&quot;From the initial engagement, Dan was professional and well organized and new what he was talking about. Dan&#x27;s work boosted revenue. Within the first week of publishing our new website, a customer made an inquiry to purchase all stock. Thanks Dan!&quot;</p>
+                <h5>CJ &amp; Dina Roos</h5>
+                <div class="feature-body-2 text-grey">Executive Directors // African LM Lawn</div>
+              </div>
+            </div>
+            <div class="testimonials-slide-2 w-slide">
+              <div class="review-3">
+                <div class="quote-mark"></div>
+                <div class="quote-mark top-right"></div>
+                <div class="review-rating">
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                </div>
+                <h4>One Percent SA</h4>
+                <p class="trio">Dan was fast and effective when it came to reporting and analyzing our business. He went to great lengths to accommodate and come forth with new ideas with regards to organic development of our website. He has great knowledge when it comes to IT development. Be sure to use him on your next project!</p>
+                <h5>Eugene Becker</h5>
+                <div class="feature-body-2 text-grey">Executive Director // One Percent SA</div>
+              </div>
+            </div>
+            <div class="testimonials-slide-2 w-slide">
+              <div data-w-id="ffcb1bfe-c0ac-15cf-c57b-d29c9121c11e" style="opacity:0" class="review-3">
+                <div class="quote-mark"></div>
+                <div class="quote-mark top-right"></div>
+                <div class="review-rating">
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3"></div>
+                  <div class="star-rating-3 grey-star"></div>
+                </div>
+                <h4>Limitless You</h4>
+                <p class="trio">&quot;Daniel has proven himself to be an exceptionally skilled individual, with an extraordinary grasp of business development, graphic design, website design and web development.&quot;</p>
+                <h5>Michael Klynhans</h5>
+                <div class="feature-body-2 text-grey">Executive Director // Limitless You</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-arrow-button left w-slider-arrow-left">
+            <div data-w-id="ffcb1bfe-c0ac-15cf-c57b-d29c9121c135" style="opacity:0" class="arrow-button">
+              <div class="icon-arrow"><br></div>
+            </div>
+          </div>
+          <div class="review-arrow-button right w-slider-arrow-right">
+            <div data-w-id="ffcb1bfe-c0ac-15cf-c57b-d29c9121c13a" style="opacity:0" class="arrow-button">
+              <div class="icon-arrow"><br></div>
+            </div>
+          </div>
+          <div class="r-nav w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section-5 haze wf-section">
+      <div class="resume-container w-container">
+        <div class="section-intro centered">
+          <h2 class="section-title">What I Can Do</h2>
+        </div>
+        <div class="service-nav-collection w-dyn-list">
+          <div role="list" class="service-nav-list w-dyn-items">
+            <div role="listitem" class="service-nav-item w-dyn-item">
+              <a id="heroslide1" href="#" class="hero-links"></a>
+            </div>
+          </div>
+          <div class="w-dyn-empty">
+            <div>No items found.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="section haze wf-section" data-ix="fade-in-scroll">
+      <div id="scroll-to-top" class="scroll-jump"></div>
+      <div class="footer-alt">
+        <address class="resume-container w-container">
+          <a href="#" class="founddesigns w-nav-brand">
+            <h1 class="foundlogo">Dan Guenther <span class="mini-brand">UXUI Frontend Developer</span></h1>
+          </a>
+          <div class="mnml-main">
+            <div class="mnml-sitemap">
+              <a href="index.html" class="footer-links purple">Home</a>
+              <a href="about.html" class="footer-links purple">About</a>
+              <a href="services.html" class="footer-links purple">Services</a>
+              <a href="portfolio.html" class="footer-links purple">Portolio</a>
+              <a href="daniel-j-guenther.html" aria-current="page" class="footer-links purple w--current">Resume</a>
+              <a href="insights.html" class="footer-links purple">Insights</a>
+              <a href="uxui-design/contact.html" class="footer-links purple">Contact</a>
+            </div>
+            <a href="#" class="mnml-scroll-jump-2"></a>
+          </div>
+          <div class="mnml-third">
+            <div class="mnml-row">
+              <div class="mnml-clmn legal">
+                <a href="legal/terms-and-conditions.html" class="footer-link-alt legal">Terms of Use</a>
+                <a href="legal/privacy-policy.html" class="footer-link-alt legal">Privacy Policy</a>
+                <a href="legal/disclaimer.html" class="footer-link-alt legal">Disclaimer</a>
+              </div>
+              <div class="mnml-clmn social w-clearfix">
+                <div class="footer-text">Recieve an annual report? <a href="#" class="footer-link-2">Click Here</a>
+                </div>
+                <a href="https://github.com/daniel-j-guenther" target="_blank" class="footer-link-alt social w-inline-block">
+                  <div class="f-social-icn"></div>
+                  <div class="f-social-txt">GitHub</div>
+                </a>
+                <a href="https://www.google.com/maps?cid=10224582708928136446" target="_blank" class="footer-link-alt social hide w-inline-block">
+                  <div class="f-social-icn"><strong></strong></div>
+                  <div class="f-social-txt">Google</div>
+                </a>
+                <a href="#" class="footer-link-alt social hide w-inline-block">
+                  <div class="f-social-icn"><strong></strong></div>
+                  <div class="f-social-txt">Instagram</div>
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-j-guenther/" class="footer-link-alt social w-inline-block">
+                  <div class="f-social-icn"></div>
+                  <div class="f-social-txt">LinkedIn</div>
+                </a>
+                <a href="https://wa.me/4915129410707?text=Hello,%20..." target="_blank" class="footer-link-alt social hide w-inline-block">
+                  <div class="f-social-icn"><strong></strong></div>
+                  <div class="f-social-txt">WhatsApp</div>
+                </a>
+                <div data-hover="true" data-delay="0" class="language-drop w-dropdown">
+                  <div class="language-toggle w-dropdown-toggle">
+                    <div class="language-icon"></div>
+                    <div class="language-text">Language</div>
+                  </div>
+                  <nav class="language-wrapper w-dropdown-list">
+                    <a href="#" class="language-link w-inline-block"><img src="images/Founddesigns.de-flag-deutschland.gif" alt="" class="language-flag">
+                      <div>Deutsche</div>
+                    </a>
+                    <a href="#" class="language-link w-inline-block"><img src="images/Founddesigns.de-flag-european-union.gif" alt="" class="language-flag">
+                      <div>English</div>
+                    </a>
+                    <a href="#" class="language-link w-inline-block"><img src="images/Founddesigns.de-flag-france.gif" alt="" class="language-flag">
+                      <div>French</div>
+                    </a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lower-third-2">
+            <div class="mnml-row">
+              <div class="mnml-clmn w-clearfix">
+                <div class="notice-text-2">Copyright <span class="copyright-symbol">©</span> 2020 Founddesigns.de. All rights reserved.</div>
+              </div>
+              <div class="mnml-clmn built-with-love w-clearfix">
+                <div class="notice-text-2">Trading Mondays to Fridays 9:00 till 17:30, GMT +1 <span class="spacer-span">//</span> Built with <span class="love-span-2"></span> in Berlin.</div>
+              </div>
+            </div>
+          </div>
+        </address>
+      </div>
+    </footer>
+    <address class="social-sticky">
+      <div class="social-side">
+        <a href="https://dribbble.com/daniel-j-guenther" target="_blank" class="s-icon-2"></a>
+        <a href="https://www.instagram.com/founddesigns.de" target="_blank" class="s-icon-2"></a>
+        <a href="https://github.com/cloudjungle-uxui" target="_blank" class="s-icon-2"></a>
+        <a href="https://www.behance.net/cloudjungle" target="_blank" class="s-icon-2"></a>
+        <a href="https://www.linkedin.com/in/daniel-jonathan-guenther/" target="_blank" class="s-icon-2"></a>
+        <a href="https://wa.me/491529410707?text=Hello%20Dan,%20I%20have%20an%20inquiry.../" target="_blank" class="s-icon-2"></a>
+      </div>
+    </address>
+    <div class="contact"><img src="images/preloader.svg" width="72" alt="" class="pl-icon">Loading...</div>
+    <div style="display:none;opacity:0" class="subscribe"><img src="images/preloader.svg" width="72" alt="" class="pl-icon"></div>
+    <div class="preloader-2"><img src="images/preloader.svg" width="72" alt="" class="pl-icon">
+      <div class="pl-text">Loading...</div>
+    </div>
+    <div class="responsive-notice">
+      <div class="responsive-flex">
+        <div class="responsive-content">
+          <div class="responsive-brand"><img src="images/Founddesigns.de-UXUI-Frontend-Web-Developer.svg" loading="lazy" alt="" class="responsive-identity">
+            <h2 class="responsive-logo">Founddesigns.de</h2>
+          </div>
+          <div class="responsive-sub">Mobile Devices Coming Soon!</div>
+          <div class="responsive-line top"></div>
+          <div class="responsive-line low"></div>
+        </div>
+        <div id="js-clock" class="responsive-clock">
+          <div class="responsive-box">
+            <div id="js-clock-days" class="clock-number">00</div>
+            <div class="clock-label">Days</div>
+          </div>
+          <div class="responsive-box">
+            <div id="js-clock-hours" class="clock-number">00</div>
+            <div class="clock-label">Hours</div>
+          </div>
+          <div class="responsive-box">
+            <div id="js-clock-minutes" class="clock-number">00</div>
+            <div class="clock-label">Min</div>
+          </div>
+          <div class="responsive-box">
+            <div id="js-clock-seconds" class="clock-number">00</div>
+            <div class="clock-label">Sec</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5ced464d38505804340143d1" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSD2XGD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!--  Tabbed Slider Link-Menu  -->
+  <script>
+$(document).ready(function() {
+  $('#heroslide1').click(function(e) {
+    e.preventDefault();
+    $('.skills-link').removeClass('active');
+    $(this).addClass('active');
+    $('.w-round div:nth-child(1)').trigger('tap');
+  });
+  $('#heroslide2').click(function(e) {
+    e.preventDefault();
+    $('.skills-link').removeClass('active');
+    $(this).addClass('active');
+    $('.w-round div:nth-child(2)').trigger('tap');
+  });
+	$('#heroslide3').click(function(e) {
+  	e.preventDefault();
+    $('.skills-link').removeClass('active');
+    $(this).addClass('active');
+    $('.w-round div:nth-child(3)').trigger('tap');
+  });
+  $('#heroslide4').click(function(e) {
+    e.preventDefault();
+    $('.skills-link').removeClass('active');
+    $(this).addClass('active');
+    $('.w-round div:nth-child(4)').trigger('tap');
+  });
+});
+</script>
+  <!--  Card Slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+  <script>
+var swiper = new Swiper(".swiper-container", {
+  effect: "coverflow",
+  initialSlide:	2,
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 12,
+    stretch: 0,
+    depth: 144,
+    modifier: 1,
+    slideShadows: true
+  }
+});
+</script>
+  <!--  Typed.js for Weblfow  -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <script>
+    	var typed4 = new Typed('#typed-strings', {
+        strings: ['I am a <strong>Front-end Web Developer</strong> living in Berlin.', 'I work together with the <strong>Product Design Team</strong>.'],
+        typeSpeed: 36,
+        backSpeed: 18,
+        bindInputFocusEvents: true,
+        loop: true,
+        cursorChar: '',
+        backDelay: 1000,
+        startDelay: 1400
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>input-lock-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="input-lock-icon" fill="#B0B9CB" fill-rule="nonzero">
+            <path d="M19.4,24 C19.1790861,24 19,24.1790861 19,24.4 L19,29.6 C19,29.8209139 19.1790861,30 19.4,30 L29.6,30 C29.8209139,30 30,29.8209139 30,29.6 L30,24.4 C30,24.1790861 29.8209139,24 29.6,24 L19.4,24 Z M20,22 L20,20.3333333 C20,17.9288921 22.0253367,16 24.5,16 C26.9746633,16 29,17.9288921 29,20.3333333 L29,22 L29.6,22 C30.9254834,22 32,23.0745166 32,24.4 L32,29.6 C32,30.9254834 30.9254834,32 29.6,32 L19.4,32 C18.0745166,32 17,30.9254834 17,29.6 L17,24.4 C17,23.0745166 18.0745166,22 19.4,22 L20,22 Z M22,22 L27,22 L27,20.3333333 C27,19.0558762 25.89133,18 24.5,18 C23.10867,18 22,19.0558762 22,20.3333333 L22,22 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
